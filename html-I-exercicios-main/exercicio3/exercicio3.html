@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>**Exercício 3**</title>
+    <link href="style.css" type="text/css" rel="stylesheet"> -->
 </head>
-<body>
 
+<body>
     <h1>Tabela de conteúdos</h1>
-    <table>
-        <th><b>Assunto</b></th>
-        <th><b>Módulo</b></th>
-        <th><b>Qtd aulas</b></th>
-        <tr>
+    <table id="table">
+        <tr id="tHeader">
+            <th><b>Assunto</b></th>
+            <th><b>Módulo</b></th>
+            <th><b>Qtd aulas</b></th>
+        </tr>
+        <tr class="tCinza">
             <td>HTML</td>
             <td>Intro Web</td>
             <td>02</td>
@@ -23,7 +27,7 @@
             <td>Intro Web</td>
             <td>04</td>
         </tr>
-        <tr>
+        <tr class="tCinza">
             <td>Integração com APIs</td>
             <td>Front-end React</td>
             <td>04</td>
@@ -34,6 +38,6 @@
             <td>04</td>
         </tr>
     </table>
-    
 </body>
+
 </html>
